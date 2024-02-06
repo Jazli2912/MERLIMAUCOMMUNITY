@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT US</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<style>
+    body {
+        background-image: url(images/merlimau.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+</style>
+
+
+<body>
+    <header>
+        <img src="images/LOGO COMMUNITY WEBSITE.jpg" alt="">
+        
+        <div class="navigation">
+            <ul>
+                <li class="list active">
+                    <a href="index.html">
+                        <span class="icon">
+                            <ion-icon name="home-outline"></ion-icon>    
+                        </span>
+                        <span class="text">HOME</span>
+                    </a>    
+                </li>
+                
+                <li class="list">
+                    <a href="community.html">
+                        <span class="icon">
+                            <ion-icon name="people-outline"></ion-icon>    
+                        </span>
+                        <span class="text">COMMUNITY</span>
+                    </a>    
+                </li>
+                
+                <li class="list">
+                <a href="history.html">
+                    <span class="icon">
+                    <ion-icon name="newspaper-outline"></ion-icon>      
+                    </span>
+                    <span class="text">HISTORY</span>
+                </a>    
+            </li>
+
+            <li class="list">
+                <a href="explore.html">
+                    <span class="icon">
+                    <ion-icon name="footsteps-outline"></ion-icon>        
+                    </span>
+                    <span class="text">ATTRACTION</span>
+                </a>    
+            </li>
+
+            <li class="list">
+                <a href="contact_us.html">
+                    <span class="icon">
+                    <ion-icon name="call-outline"></ion-icon>
+                    </span>
+                    <span class="text">CONTACT US</span>
+                </a>    
+            </li>
+            <div class="indicator"></div>
+        </ul>
+    </header>
+        
+    </div>
+
+    <script>
+        const list = document.querySelectorAll('.list');
+        function activeLink(){
+            list.forEach((item) =>
+            item.classList.remove('active'));
+            this.classList.add('active');
+        }
+            list.forEach((item) =>
+            item.addEventListener('active', activeLink));
+    </script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+    <h2 style="text-align: center;"><b><u>CONTACT US</u></b></h2>
+
+
+<section id="contact">
+<div class="containers-irsyad">
+    <a href="mailto:irsyadrusyaidi3@gmail.com" class="contact">
+        <ion-icon name="mail-outline"></ion-icon>
+        <span>EMAIL (IRSYAD)</span>
+    </a>
+
+    <a href="https://wa.link/qa429y" class="contact">
+        <ion-icon name="logo-whatsapp"></ion-icon>
+        <span>WHATSAPP (IRSYAD)</span>
+    </a>
+</div>
+
+
+<div class="containers-imran">
+    <a href="mailto:imran.hakimi2002@gmail.com" class="contact">
+        <ion-icon name="mail-outline"></ion-icon>
+        <span>EMAIL (IMRAN)</span>
+    </a>
+ 
+
+    <a href="https://wa.link/zy8vfs" class="contact">
+        <ion-icon name="logo-whatsapp"></ion-icon>
+        <span>WHATSAPP (IMRAN)</span>
+    </a>
+     
+</div>
+
+<div class="containers-jazli">
+    <a href="jazli.jamal2912@gmail.com" class="contact">
+        <ion-icon name="mail-outline"></ion-icon>
+        <span>EMAIL (JAZLI)</span>
+    </a>
+
+    <a href="https://wa.link/g88146" class="contact">
+        <ion-icon name="logo-whatsapp"></ion-icon>
+        <span>WHATSAPP (JAZLI)</span>
+    </a>
+</div>
+</section>
+
+<footer style="text-align: center;color: rgb(38, 240, 85);"><i>&copy; Copyright 2024. Merlimau Community Website. All Rights Reserved</i></footer>    
+</body>
+</html>

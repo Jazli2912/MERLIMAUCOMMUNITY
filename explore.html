@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATTRACTION</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <style>
+        body {
+            background-image: url(images/merlimau.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+    </style>
+    <header>
+        <img src="images/LOGO COMMUNITY WEBSITE.jpg" alt="">
+        
+        <div class="navigation">
+            <ul>
+                <li class="list active">
+                    <a href="index.html">
+                        <span class="icon">
+                            <ion-icon name="home-outline"></ion-icon>    
+                        </span>
+                        <span class="text">HOME</span>
+                    </a>    
+                </li>
+                
+                <li class="list">
+                    <a href="community.html">
+                        <span class="icon">
+                            <ion-icon name="people-outline"></ion-icon>    
+                        </span>
+                        <span class="text">COMMUNITY</span>
+                    </a>    
+                </li>
+                
+                <li class="list">
+                <a href="history.html">
+                    <span class="icon">
+                    <ion-icon name="newspaper-outline"></ion-icon>      
+                    </span>
+                    <span class="text">HISTORY</span>
+                </a>    
+            </li>
+
+            <li class="list">
+                <a href="explore.html">
+                    <span class="icon">
+                    <ion-icon name="footsteps-outline"></ion-icon>        
+                    </span>
+                    <span class="text">ATTRACTION</span>
+                </a>    
+            </li>
+
+            <li class="list">
+                <a href="contact_us.html">
+                    <span class="icon">
+                    <ion-icon name="call-outline"></ion-icon>
+                    </span>
+                    <span class="text">CONTACT US</span>
+                </a>    
+            </li>
+            <div class="indicator"></div>
+        </ul>
+    </header>
+        
+    </div>
+
+    <section id="ATTRACTION">
+        <div class="CONTENT-ATTRACTION"> 
+            <h1 style="text-align: center;color: white";> <u>ATTRACTION</u></h1>   
+            </div>  
+        <div class="ATTRACTION-DETAILS-CONTAINER">
+            <div class="ABOUT-ATTRACTION">
+                <div class="DETAILS-CONTAINER-ATTRACTION"> 
+                       <div><h3>Historic Place</h3>
+                            <P>Merlimau has several historical sites. Among them are the House of Chief Abdul Ghani, the Tomb of Tun Teja located amidst rice fields, and the Portuguese Well located in Kampung Pengkalan Samak, which is a former well dug by the Portuguese during their arrival in Melaka.
+                                </P></div>
+                                        </div>
+                                            </div>
+                                                </div>
+    </section>
+
+    <section id="ATTRACTION">
+        <div class="ATTRACTION-CONTAINER">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Demang_Abdul_Ghani_Gallery.JPG/330px-Demang_Abdul_Ghani_Gallery.JPG" width="425" height="415" alt="Rumah Penghulu Abdul Ghani">
+          </div>
+
+        <div class="ATTRACTION-DETAILS-CONTAINER">
+            <div class="ABOUT-ATTRACTION">
+                <div class="DETAILS-CONTAINER-ATTRACTION"> 
+                       <div><h3>Rumah Penghulu Abdul Ghani</h3>
+                            <P>The house of Chief Demang Abdul Ghani is located in Merlimau Town, approximately 22 km from the city of Melaka towards Muar. This uniquely designed building was constructed in 1914 by Datuk Demang Abdul Ghani, the Chief of the Merlimau District.
+                                </P></div>
+                                        </div>
+                                            </div>
+                                                </div>
+    </section>
+
+    <section id="ATTRACTION">
+        <div class="ATTRACTION-CONTAINER">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Tun_Teja_Mausoleum.jpg/330px-Tun_Teja_Mausoleum.jpg" width="425" height="415" alt="Tun Teja Grave">
+          </div>
+
+        <div class="ATTRACTION-DETAILS-CONTAINER">
+            <div class="ABOUT-ATTRACTION">
+                <div class="DETAILS-CONTAINER-ATTRACTION"> 
+                       <div><h3>Tun Teja Grave</h3>
+                            <P>Tun Teja Ratna Benggala was the only daughter of Bendahara Seri Amar Diraja from Pahang during the reign of Sultan Abdul Jamil ibni Sultan Muhammad Shah (1475-1497), the third Sultan of Pahang, contemporaneous with Sultan Mahmud Syah (1488-1511), the 8th Sultan of Melaka. Tun Teja was said to possess exceptional beauty, renowned among traders in Pahang, and was engaged to the Sultan of Pahang. News of Tun Teja's beauty reached Sultan Mahmud Syah, who at the time had lost his first wife, Tun Kecil, to death. He sent a proposal through his emissaries to Pahang, but it was rejected by Bendahara Seri Amar Diraja due to Tun Teja's engagement to the Sultan of Pahang.
+                                </P>
+                            </br>
+                            <h3>The reason her grave was in Merlimau</h3>
+                        <p>After discussing, they agreed that Tun Teja should be buried right there (Pengkalan Samak, Merlimau) with the reasoning that Muar was still far away, a journey taking 4 or 5 days, with no facilities to preserve a possibly deteriorating corpse without causing distress. Everyone agreed to bury him in that area.</p></div>
+                                        </div>
+                                            </div>
+                                                </div>
+    </section>
+
+
+    <script>
+        const list = document.querySelectorAll('.list');
+        function activeLink(){
+            list.forEach((item) =>
+            item.classList.remove('active'));
+            this.classList.add('active');
+        }
+            list.forEach((item) =>
+            item.addEventListener('active', activeLink));
+    </script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <footer style="text-align: center;color: rgb(31, 246, 124);"><i>&copy; Copyright 2024. Merlimau Community Website. All Rights Reserved</i></footer>
+
+</body>
+</html>

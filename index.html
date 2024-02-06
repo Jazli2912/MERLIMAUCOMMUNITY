@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> HOME | MERLIMAU COMMUNITY WEBSITE</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<style>
+        body {
+            background-image: url(images/merlimau.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+</style>
+
+<nav>
+    <header>
+        <img src="images/LOGO COMMUNITY WEBSITE.jpg" alt="">
+        
+        <div class="navigation">
+            <ul>
+                <li class="list active">
+                    <a href="index.html">
+                        <span class="icon">
+                            <ion-icon name="home-outline"></ion-icon>    
+                        </span>
+                        <span class="text">HOME</span>
+                    </a>    
+                </li>
+                
+                <li class="list">
+                    <a href="community.html">
+                        <span class="icon">
+                            <ion-icon name="people-outline"></ion-icon>    
+                        </span>
+                        <span class="text">COMMUNITY</span>
+                    </a>    
+                </li>
+                
+                <li class="list">
+                <a href="history.html">
+                    <span class="icon">
+                    <ion-icon name="newspaper-outline"></ion-icon>      
+                    </span>
+                    <span class="text">HISTORY</span>
+                </a>    
+            </li>
+
+            <li class="list">
+                <a href="explore.html">
+                    <span class="icon">
+                    <ion-icon name="footsteps-outline"></ion-icon>        
+                    </span>
+                    <span class="text">ATTRACTION</span>
+                </a>    
+            </li>
+
+            <li class="list">
+                <a href="contact_us.html">
+                    <span class="icon">
+                    <ion-icon name="call-outline"></ion-icon>
+                    </span>
+                    <span class="text">CONTACT US</span>
+                </a>    
+            </li>
+            <div class="indicator"></div>
+        </ul>
+    </header>
+    </div>
+    </nav>
+
+    <body>
+    <div class="content"> 
+    <h1 style="text-align: center;color: white";> <u>WELCOME TO MERLIMAU COMMUNITY WEBSITE</u></h1>   
+    </div>
+
+</body>
+
+<script>
+    const list = document.querySelectorAll('.list');
+    function activeLink(){
+        list.forEach((item) =>
+        item.classList.remove('active'));
+        this.classList.add('active');
+    }
+        list.forEach((item) =>
+        item.addEventListener('active', activeLink));
+</script>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+<footer style="text-align: center;color: rgb(31, 246, 124);"><i>&copy; Copyright 2024. Merlimau Community Website. All Rights Reserved</i>
+
+    <br>Designed by <strong>Muhammad Irsyad Rusyaidi bin Mohd Hafizi, Imran Hakimi bin Ramli, and Jazli bin Jamaluddin</strong></br>
+
+    <br>
+    Last Update 31 January 2024.
+    </br>
+
+    <p><em>Disclaimer: This website is not the official website of Merlimau Community. This website was developed for the purpose of learning
+        HTML & CSS only.</em></p>    
+
+</footer>
+    </body>
+</html>
